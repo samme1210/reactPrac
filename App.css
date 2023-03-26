@@ -1,0 +1,24 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn__count {
+  padding: 5px;
+  border: 1px #000 solid;
+  border-radius: 5px;
+  font-size: 24px;
+}
+
+.count__display {
+  padding: 5px;
+  font-size: 24px;
+}
