@@ -7,6 +7,9 @@ const [cart, setCart] = useState({
 });
 
   function addApple() {
+    // use callback to get prev value
+    // spread out all the properties of the prev state 
+    //only change the needed property 
     setCart(prevCart => ({
       ...prevCart,
       quantity: prevCart.quantity + 1,
