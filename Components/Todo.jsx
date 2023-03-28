@@ -1,8 +1,10 @@
-function Todo( title ) {
+import './Todo.css'
+
+function Todo({ title, onTodoDelete }) {
     return (
         <div className="todo">
-            <h1 className="todo__title"> { title } </h1>
-            <button>Delete</button>
+            <h2 className="todo__title"> { title } </h2>
+            <button onClick={ onTodoDelete } className="delt__btn">Delete</button>
         </div>
     );
 }
